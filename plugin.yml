@@ -1,0 +1,17 @@
+name: CustomTools
+version: '${version}'
+main: com.finn.customtools.CustomToolsPlugin
+api-version: '26.2'
+description: Custom pickaxes, axes and shovels with Tebex command delivery.
+author: ServerTeam
+
+commands:
+  customtools:
+    description: Give and manage CustomTools items.
+    usage: /customtools give <player> <pickaxe|axe|shovel|bundle>
+    aliases: [ctools]
+
+permissions:
+  customtools.admin:
+    description: Legacy permission node; in-game commands are checked with isOp().
+    default: op

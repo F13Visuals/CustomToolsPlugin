@@ -1,0 +1,34 @@
+tools:
+  pickaxe:
+    material: DIAMOND_PICKAXE
+    name: "&b&l3x3 Pickaxe"
+    lore:
+      - "&7Mines a 3x3 area."
+      - "&eCustomTools"
+  axe:
+    material: DIAMOND_AXE
+    name: "&6&lCustom Axe"
+    lore:
+      - "&7A custom server tool."
+      - "&eCustomTools"
+  shovel:
+    material: DIAMOND_SHOVEL
+    name: "&a&lCustom Shovel"
+    lore:
+      - "&7A custom server tool."
+      - "&eCustomTools"
+
+mining:
+  enabled: true
+  # true = only break blocks matching the centre block; false = break any valid block in the 3x3 plane.
+  same-block-only: false
+
+messages:
+  prefix: "&8[&bCustomTools&8] "
+  no-permission: "&cYou do not have permission."
+  player-not-found: "&cThat player has never joined or could not be found."
+  usage: "&eUse: /customtools give <player> <pickaxe|axe|shovel|bundle>"
+  given: "&aDelivered %tool% to %player%."
+  queued: "&aQueued %tool% for %player%. It will arrive when they join."
+  reloaded: "&aConfiguration reloaded."
+  invalid-tool: "&cUnknown tool. Use pickaxe, axe, shovel or bundle."
